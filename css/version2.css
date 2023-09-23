@@ -19,7 +19,7 @@ header{
 display: flex;
 justify-content: space-between;
 background:#5A5A5A;
-padding: 1rem;
+padding: .6rem;
 margin: 0;
 align-items: center;
 }
@@ -41,7 +41,7 @@ nav ul li {
 /* might need to come back here*/
 article{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -82,14 +82,18 @@ article{
 
 section{
     max-width: 50%;
+    max-height: 50%;
+    min-height: 50%;
 }
-.text {background-color: #fff;
-padding: .6rem;
+.text {
+flex-direction: column;
+display: flex;
 font-size: medium;
-line-height: normal;}
+line-height: 2rem;
+}
 
 h2 {
-text-align: center;
+text-align: left;
 }
 
 footer{
